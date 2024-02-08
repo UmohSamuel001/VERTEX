@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://earnhive.net/admin/withdraw/pending/invest -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertex - Pending Game Withdrawals</title>
+
+    <link rel="shortcut icon" type="image/png" href="https://earnhive.net/assets/images/logoIcon/favicon.png">
+
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/a207e207d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+
+    </head>
+<body>
+    <!-- page-wrapper start -->
+    <div class="page-wrapper default-version">
+        <div class="sidebar bg--dark">
+            <button class="res-sidebar-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <div class="sidebar__inner">
+                <div class="sidebar__logo">
+                    <a href="Admin Dashboard.html" class="sidebar__main-logo"><img src="img/logo.png" alt="image"></a>
+                </div>
+        
+                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: calc(100vh - 86.75px);">
+                    <div class="sidebar__menu-wrapper" id="sidebar__menuWrapper" style="overflow: scroll; width: auto; height: calc(100vh - 86.75px);">
+                    <ul class="sidebar__menu">
+                        <li class="sidebar-menu-item active">
+                            <a href="Admin Dashboard.html" class="nav-link ">
+                                <i class="menu-icon fa-solid fa-house"></i>                        
+                                <span class="menu-title">Dashboard</span>
+                            </a>
+                        </li>
+        
+                        <li class="sidebar-menu-item ">
+                            <a href="Admin Withdrawal Form.html" class="nav-link ">
+                                <i class="menu-icon fa-solid fa-money-check-dollar"></i>
+                                <span class="menu-title">Auto Withdrawal</span>
+                            </a>
+                        </li>
+                        
+                        <li class="sidebar-menu-item ">
+                            <a href="Website Settings.html" class="nav-link ">
+                                <i class="menu-icon fa-solid fa-wrench"></i>
+                                <span class="menu-title">Site Settings</span>
+                            </a>
+                        </li>
+                        
+                        <li class="sidebar-menu-item ">
+                            <a href="Generate Coupons.html" class="nav-link ">
+                                <i class="menu-icon fa-solid fa-gift"></i>
+                                <span class="menu-title">Generate Coupon</span>
+                            </a>
+                        </li>
+                        
+                        <li class="sidebar-menu-item ">
+                            <a href="Admin Coupons.html" class="nav-link ">
+                                <i class="menu-icon fa-solid fa-gift"></i>
+                                <span class="menu-title">Admin Codes</span>
+                            </a>
+                        </li>
+        
+        
+                        <li class="sidebar-menu-item sidebar-dropdown">
+                            <a href="javascript:void(0)" class="">
+                                <i class="menu-icon fa-solid fa-users-gear"></i>
+                                <span class="menu-title">Manage Users</span>
+                             </a>
+                            <div class="sidebar-submenu  ">
+                                <ul>
+                                    <li class="sidebar-menu-item  ">
+                                        <a href="Active Users.html" class="nav-link">
+                                            <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                            <span class="menu-title">Active Users</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item  ">
+                                        <a href="Active Vendors.html" class="nav-link">
+                                            <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                            <span class="menu-title">Vendors</span>
+                                            
+                                        </a>
+                                    </li>
+        
+                                    
+        
+        
+                                    <li class="sidebar-menu-item ">
+                                        <a href="Notification to Verified Users.html" class="nav-link">
+                                            <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                            <span class="menu-title">Notification to All</span>
+                                        </a>
+                                    </li>
+        
+                                </ul>
+                            </div>
+                        </li>
+        
+                        
+        
+                        <!--<li class="sidebar-menu-item sidebar-dropdown">-->
+                        <!--    <a href="javascript:void(0)" class="">-->
+                        <!--        <i class="menu-icon las la-file-invoice-dollar"></i>-->
+                        <!--        <span class="menu-title">Deposits</span>-->
+                        <!--        -->
+                        <!--    </a>-->
+                        <!--    <div class="sidebar-submenu  ">-->
+                        <!--        <ul>-->
+        
+                        <!--            <li class="sidebar-menu-item  ">-->
+                        <!--                <a href="https://earnhive.net/admin/deposit/pending" class="nav-link">-->
+                        <!--                    <i class="menu-icon las la-dot-circle"></i>-->
+                        <!--                    <span class="menu-title">Pending Deposits</span>-->
+                        <!--                    -->
+                        <!--                </a>-->
+                        <!--            </li>-->
+        
+                        <!--            <li class="sidebar-menu-item  ">-->
+                        <!--                <a href="https://earnhive.net/admin/deposit/approved" class="nav-link">-->
+                        <!--                    <i class="menu-icon las la-dot-circle"></i>-->
+                        <!--                    <span class="menu-title">Approved Deposits</span>-->
+                        <!--                </a>-->
+                        <!--            </li>-->
+        
+        
+                        <!--            <li class="sidebar-menu-item  ">-->
+                        <!--                <a href="https://earnhive.net/admin/deposit/rejected" class="nav-link">-->
+                        <!--                    <i class="menu-icon las la-dot-circle"></i>-->
+                        <!--                    <span class="menu-title">Rejected Deposits</span>-->
+                        <!--                </a>-->
+                        <!--            </li>-->
+        
+                        <!--        </ul>-->
+                        <!--    </div>-->
+                        <!--</li>-->
+        
+                        <li class="sidebar-menu-item sidebar-dropdown">
+                            <a href="javascript:void(0)" class="">
+                                <i class="menu-icon fa-solid fa-money-bill-transfer"></i>
+                                <span class="menu-title">Withdrawals </span>
+                                                    </a>
+                            <div class="sidebar-submenu  ">
+                                <ul>
+        
+                                    <li class="sidebar-menu-item  ">
+                                        <a href="Pending Affiliate Withdrawals.html" class="nav-link">
+                                            <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                            <span class="menu-title">Affiliate Withdrawals</span>
+        
+                                                                            </a>
+                                    </li>
+                                    
+                                    <li class="sidebar-menu-item  ">
+                                        <a href="Pending Game Withdrawals.html" class="nav-link">
+                                            <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                            <span class="menu-title">Game Withdrawals</span>
+        
+                                                                            </a>
+                                    </li>
+                                    
+                                    <li class="sidebar-menu-item  ">
+                                        <a href="Pending Earnings Withdrawals.html" class="nav-link">
+                                            <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                            <span class="menu-title">Earnings Withdrawals</span>
+        
+                                                                            </a>
+                                    </li>
+        
+                                    <li class="sidebar-menu-item  ">
+                                        <a href="#" class="nav-link">
+                                            <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                            <span class="menu-title">Approved Withdrawals</span>
+                                        </a>
+                                    </li>
+        
+                                    <li class="sidebar-menu-item  ">
+                                        <a href="Rejected Withdrawals.html" class="nav-link">
+                                            <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                            <span class="menu-title">Rejected Withdrawals</span>
+                                        </a>
+                                    </li>
+        
+        
+                                </ul>
+                            </div>
+                        </li>
+        
+                       
+        
+        
+                        
+        
+                        <li class="sidebar__menu-header">Settings</li>
+        
+                        <li class="sidebar-menu-item ">
+                            <a href="General Setting.html" class="nav-link">
+                                <i class="menu-icon fa-solid fa-gear"></i>
+                                <span class="menu-title">General Setting</span>
+                            </a>
+                        </li>
+        
+                       
+                        <li class="sidebar-menu-item ">
+                            <a href="#" class="nav-link">
+                                <i class="menu-icon fa-solid fa-user-tie"></i>
+                                <span class="menu-title">SEO Manager</span>
+                            </a>
+                        </li>
+                        
+                        <li class="sidebar__menu-header">Sponsored Posts</li>
+        
+        
+                        <li class="sidebar-menu-item ">
+                            <a href="#" class="nav-link">
+                                <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                <span class="menu-title">Add Sponsored Post</span>
+                            </a>
+                        </li>
+                        
+                        <li class="sidebar-menu-item ">
+                            <a href="#" class="nav-link">
+                                <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                <span class="menu-title">All Sponsored Posts</span>
+                            </a>
+                        </li>
+                        
+        
+                       
+                        <li class="sidebar__menu-header">Products</li>
+        
+        
+                        <li class="sidebar-menu-item ">
+                            <a href="#" class="nav-link">
+                                <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                <span class="menu-title">Add Products</span>
+                            </a>
+                        </li>
+                        
+                        <li class="sidebar-menu-item ">
+                            <a href="#" class="nav-link">
+                                <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                <span class="menu-title">Product List</span>
+                            </a>
+                        </li>
+                        
+                        
+                          <li class="sidebar__menu-header">Courses</li>
+        
+        
+                        <li class="sidebar-menu-item ">
+                            <a href="Add Course.html" class="nav-link">
+                                <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                <span class="menu-title">Add Courses</span>
+                            </a>
+                        </li>
+                        
+                        <li class="sidebar-menu-item ">
+                            <a href="All Courses.html" class="nav-link">
+                                <i class="menu-icon fa-regular fa-circle-dot"></i>
+                                <span class="menu-title">Course List</span>
+                            </a>
+                        </li>
+        
+                        <li class="sidebar__menu-header">Extra</li>
+        
+        
+                        <li class="sidebar-menu-item ">
+                            <a href="#" class="nav-link">
+                                <i class="menu-icon fa-solid fa-wrench"></i>
+                                <span class="menu-title">Maintenance Mode</span>
+                            </a>
+                        </li>
+                        
+                        
+        
+                       
+                    </ul>
+                    <div class="text-center mb-3 text-uppercase">
+                        <span class="text--primary">TechCore Codes</span>
+                        <span class="text--success">V2.0 </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar end -->
+        
+                <!-- navbar-wrapper start -->
+        <nav class="navbar-wrapper bg--dark">
+            <div class="navbar__left">
+                <button type="button" class="res-sidebar-open-btn me-3"><i class="fa-solid fa-bars"></i></button>
+                <form class="navbar-search">
+                    <input type="search" name="#0" class="navbar-search-field" id="searchInput" autocomplete="off" placeholder="Search here...">
+                    <i class="fa-solid fa-magnifying-glass"></i>         
+                    <ul class="search-list"></ul>
+                </form>
+            </div>
+            <div class="navbar__right">
+                <ul class="navbar__action-list">
+        
+                    <li class="dropdown">
+                        <button type="button" class="primary--layer" data-bs-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa-regular fa-bell text--primary  icon-left-right "></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu--md p-0 border-0 box--shadow1 dropdown-menu-right">
+                            <div class="dropdown-menu__header">
+                                <span class="caption">Notification</span>
+                                                            <p>You have 31214 unread notification</p>
+                                                    </div>
+                            <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 270px;"><div class="dropdown-menu__body" style="overflow: hidden; width: auto; height: 270px;">
+                                                            <a href="https://earnhive.net/admin/notification/read/31214" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    2 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31213" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    2 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31212" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    2 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31211" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    2 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31210" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    2 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31209" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    2 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31208" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    2 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31207" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    3 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31206" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    3 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                            <a href="https://earnhive.net/admin/notification/read/31205" class="dropdown-menu__item">
+                                        <div class="navbar-notifi">
+                                            <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="./Admin Dashboard_files/350x300" alt="Profile Image"></div>
+                                            <div class="navbar-notifi__right">
+                                                <h6 class="notifi__title">New member registered</h6>
+                                                <span class="time"><i class="far fa-clock"></i>
+                                                    3 months ago</span>
+                                            </div>
+                                        </div><!-- navbar-notifi end -->
+                                    </a>
+                                                    </div><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+                            <div class="dropdown-menu__footer">
+                                <a href="https://earnhive.net/admin/notifications" class="view-all-message">View all notification</a>
+                            </div>
+                        </div>
+                    </li>
+        
+        
+                    <li class="dropdown">
+                        <button type="button" class="" data-bs-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                            <span class="navbar-user">
+                                <span class="navbar-user__thumb"><img src="img/637884b0303b61668842672.jpeg" alt="image"></span>
+                                <span class="navbar-user__info">
+                                    <span class="navbar-user__name">geekdev</span>
+                                </span>
+                                <span class="icon"><i class="fa-solid fa-circle-chevron-down"></i></span>
+                            </span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu--sm p-0 border-0 box--shadow1 dropdown-menu-right">
+                            <a href="https://earnhive.net/admin/profile" class="dropdown-menu__item d-flex align-items-center px-3 py-2">
+                                <i class="dropdown-menu__icon fa-regular fa-user"></i>
+                                <span class="dropdown-menu__caption">Profile</span>
+                            </a>
+        
+                            <a href="https://earnhive.net/admin/password" class="dropdown-menu__item d-flex align-items-center px-3 py-2">
+                                <i class="dropdown-menu__icon fa-solid fa-key"></i>                        
+                                <span class="dropdown-menu__caption">Password</span>
+                            </a>
+        
+                            <a href="https://earnhive.net/admin/logout" class="dropdown-menu__item d-flex align-items-center px-3 py-2">
+                                <i class="dropdown-menu__icon fa-solid fa-arrow-right-from-bracket"></i>                        
+                                <span class="dropdown-menu__caption">Logout</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar-wrapper end -->
+
+        <div class="body-wrapper">
+            <div class="bodywrapper__inner">
+
+                <div class="d-flex mb-30 flex-wrap gap-3 justify-content-between align-items-center">
+    <h6 class="page-title">Pending Game Withdrawals</h6>
+    <div class="d-flex flex-wrap justify-content-end gap-2 align-items-center breadcrumb-plugins">
+        <form action="https://earnhive.net/admin/withdraw/pending/invest" method="GET" class="d-flex flex-wrap gap-2">
+            <div class="input-group w-auto flex-fill">
+    <input type="search" name="search" class="form-control bg--white" placeholder="Search..." value="" id="search">
+    <button class="btn btn--primary" type="submit"><i class="la la-search"></i></button>
+</div>
+        
+</form>
+    </div>
+</div>
+
+                <div class="row justify-content-center">
+        <div class="col-md-12">
+        <div class="card b-radius--10">
+            <div class="card-body p-0">
+                <div class="table-responsive--sm table-responsive">
+                    <table class="table table--light style--two">
+                        <thead>
+                        <tr>
+                            <th>Payment Proof</th>
+                            <th>Initiated</th>
+                            <th>User</th>
+                            <th>Amount</th>
+                            <th>Type</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Paycom (Opay) | 7087419509 | Olagbenjo Zainab Ajoke</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:26 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Ajokeade20</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦3,100.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13521" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13521" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: GTB | 0751730501 | Oyenuga Enoch Eniola</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:28 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Dualsukuna</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,000.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13522" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13522" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Palmpay | 9159174008 | Kehinde olaoye</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:28 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Kehinde001</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,000.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13523" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13523" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Zenith Bank | 2425460838 | Goodwill Tamaraumienmene Jacinta</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:29 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Jacinta</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,800.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13524" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13524" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Palmpay | 8076849772 | Esom Ezedike Kamsi</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:31 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Asaezedike</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,436.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13525" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13525" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Access Bank | 0811846624 | Ude Chiamaka Jennifer</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:32 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">JenniferBons</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,418.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13526" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13526" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Paycom (Opay) | 8162874552 | David Obodo chukwuebuka</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:32 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Looneyblaq</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,350.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13527" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13527" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Access Bank | 1562615785 | Adamu iliyasu kumta</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:37 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Adamu1</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,100.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13528" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13528" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Paycom (Opay) | 9042423769 | Oluwapelumi Deborah Adegbesan</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:38 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Debby69</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,000.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13529" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13529" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Palmpay | 8106074149 | Ogundipe Olamiposi</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:47 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">RolaskMedia</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,059.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13530" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13530" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Paycom (Opay) | 9010649810 | ELOGHOSA OTAS-OSEGBE</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:48 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Iyobosa</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,300.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13531" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13531" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Kuda MFB | 2020211969 | AGUOCHA, MARYANN CHINWENDU</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:49 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">BrainBoxTv</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,413.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13532" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13532" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Paycom (Opay) | 7014081430 | Oha onyinye Martha</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:53 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Esther001</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,000.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13533" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13533" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: UBA | 2266138059 | Ubong Owoidohoabasi Uko</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:55 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">NobleUB</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,090.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13534" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13534" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Palmpay | 9126100719 | Frank chisom Anozie</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:56 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Mmesoma123</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦3,000.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13535" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13535" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Paycom (Opay) | 7026197428 | Balogun haleemah</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:58 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Leemah_shaddy</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,800.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13536" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13536" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Palmpay | 8039935300 | Israel chuks</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 03:58 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Vegeta</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,402.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13537" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13537" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Paycom (Opay) | 8065134834 | Mutairu muhammed awwal</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 04:01 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Bouncing11</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦3,200.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13538" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13538" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: UBA | 2173713264 | Okodudu Racheal</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 04:06 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Racheal01</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,700.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13539" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13539" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                                                <tr>
+                                <td data-label="Payment Proof">
+                                     <button class="fw-bold"> Withdrawn To: Paycom (Opay) | 8035409301 | Nnaemeka Samuel obioda</button>
+                                     <br>
+                                     <small>  </small>
+                                </td>
+
+                                <td data-label="Initiated">
+                                    2023-10-19 04:22 PM<br>3 months ago
+                                </td>
+                                <td data-label="User">
+                                    <span class="fw-bold">Ajubasax</span>
+                                   
+                                </td>
+                                <td data-label="Amount">
+                                   ₦2,700.00
+                                  
+                                </td>
+                                                                <td data-label="Type">
+                                    <a href="https://earnhive.net/admin/withdraw/pending/invest#" class="btn btn-sm btn--danger ms-1">
+                                         Game                                    </a>
+                                </td>
+                                                                                                <td data-label="Action">
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/approve/13540" class="btn btn-sm btn--success ms-1">
+                                         Aprrove                                    </a>
+                                    <a href="https://earnhive.net/admin/withdraw/withdrawal/reject/13540" class="btn btn-sm btn--danger ms-1">
+                                         REJECT                                    </a>
+                                </td>
+                                                            </tr>
+                                                </tbody>
+                    </table><!-- table end -->
+                </div>
+            </div>
+                        <div class="card-footer py-4">
+                <nav class="d-flex justify-content-end">
+        <ul class="pagination">
+            
+                            <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+                    <span class="page-link" aria-hidden="true">‹</span>
+                </li>
+            
+            
+                            
+                
+                
+                                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://earnhive.net/admin/withdraw/pending/invest?page=2">2</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://earnhive.net/admin/withdraw/pending/invest?page=3">3</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://earnhive.net/admin/withdraw/pending/invest?page=4">4</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://earnhive.net/admin/withdraw/pending/invest?page=5">5</a></li>
+                                                                        
+            
+                            <li class="page-item">
+                    <a class="page-link" href="https://earnhive.net/admin/withdraw/pending/invest?page=2" rel="next" aria-label="Next »">›</a>
+                </li>
+                    </ul>
+    </nav>
+            </div>
+                    </div><!-- card end -->
+    </div>
+</div>
+
+
+
+            </div><!-- bodywrapper__inner end -->
+        </div><!-- body-wrapper end -->
+    </div>
+
+
+
+
+
+
+
+<script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+<script src="jquery-3.6.0.min.js.download"></script>
+<script src="app.js.download"></script>
+
+<script>
+    "use strict";
+    function notify(status,message) {
+        iziToast[status]({
+            message: message,
+            position: "topRight"
+        });
+    }
+</script>
+
+    <script>
+        if($('li').hasClass('active')){
+            $('#sidebar__menuWrapper').animate({
+                scrollTop: eval($(".active").offset().top - 320)
+            },500);
+        }
+    </script>
+
+
+
+
+</body></html>
