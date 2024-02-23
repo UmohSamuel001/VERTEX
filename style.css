@@ -8061,6 +8061,12 @@ form .btn-lg {
 [data-theme=dark] body {
   background-color: #001a0f !important;
 }
+[data-theme=dark] .dark-img {
+  display: none;
+}
+[data-theme=dark] .light-img {
+  display: block !important;
+}
 [data-theme=dark] body h1,
 [data-theme=dark] body h2,
 [data-theme=dark] body h3,

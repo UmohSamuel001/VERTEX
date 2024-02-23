@@ -4354,7 +4354,7 @@ th.w-85 {
 }
 
 .widget-two {
-    padding: 15px 15px;
+    padding: 8px 8px 8px 15px !important;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -5143,11 +5143,13 @@ th.w-85 {
 .navbar-wrapper {
     position: relative;
     background: #ffffff;
-    padding: 15px 30px;
+    padding: 10px 30px;
     margin-left: 250px;
     border-bottom: 1px solid #dee4ec;
     display: -ms-flexbox;
     display: flex;
+    align-items: center;
+    justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     transition: all 0.5s cubic-bezier(0.4, -0.25, 0.25, 1.1);
@@ -5268,6 +5270,7 @@ th.w-85 {
 
 .navbar__right {
     margin-left: auto;
+    /* transform: translateY(5px); */
 }
 
 .navbar__right button {
@@ -5398,6 +5401,7 @@ th.w-85 {
 .dropdown-menu__header {
     padding: 15px 15px;
     border-bottom: 1px solid #e5e5e5;
+    z-index: 1000 !important;
 }
 
 .dropdown-menu__header .caption {
