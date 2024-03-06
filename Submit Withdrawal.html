@@ -9,8 +9,7 @@
   
   <!-- Title -->
   <title> Vertexx - Submit Withdrawal</title>
-  <link rel="shortcut icon" href="img/Vertex-04-2.jpg" type="image/x-icon">
-
+  <link rel="shortcut icon" type="image/png" href="img/Vertex-09-copy.png">   
   <!-- Style CSS -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
@@ -18,274 +17,279 @@
 
 </head>
 
-<body class="" style="background-color: #99f7ce36;">
-  <!-- Preloader -->
-  
+<body class="bg-light">
 
-  <!-- Internet Connection Status -->
-  <div class="internet-connection-status" id="internetStatus" style="display: none; background-color: rgb(0, 184, 148);">Your internet connection is back.</div>
+   
+    <div id="mySidenav" class="sidenav">
+        
+        <div class="sidenav-wrapper">
 
-   <!-- Header Area -->
-   <div class="header-area" id="headerArea">
-    <div class="container">
-      <!-- Header Content -->
-      <div class="header-content header-style-five position-relative d-flex align-items-center justify-content-between">
-        <!-- Logo Wrapper -->
-        <div class="logo-wrapper">
-          <a href="Home.html">
-            <img src="img/Vertex-09-copy.png" class="dark-img" alt="">
-            <img src="img/Vertex-08-copy.png" class="light-img" alt="" style="display: none;">
-          </a>
-        </div>
+            <!-- Sidenav Nav -->
+            <ul class="sidenav-nav ps-0">
+                <li>
+                    <a href="Dashboard.html" class="active-item"><i class="fa-solid fa-house"></i><span>Dashboard</span></a>
+                </li>
 
-        <!-- Navbar Toggler -->
-        <div class="navbar--toggler" id="affanNavbarToggler" data-bs-toggle="offcanvas" data-bs-target="#affanOffcanvas" aria-controls="affanOffcanvas">
-          <span class="d-block"></span>
-          <span class="d-block"></span>
-          <span class="d-block"></span>
-        </div>
-      </div>
-    </div>
-  </div>
+                <li>
+                    <a href="#"><i class="fa-solid fa-gamepad"></i><span>Vertexx Game</span>
+                        <span class="badge bg-danger rounded-pill ms-2">New</span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="Contest.html"><i class="fa-solid fa-trophy"></i>
+                        <span>Vertexx Game</span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="Withdrwals history.html"><i class="fa-solid fa-bank"></i><span>Withdrawals</span>
+                    </a>
+                </li>
 
-  <!-- # Sidenav Left -->
-  <div class="offcanvas offcanvas-start" id="affanOffcanvas" data-bs-scroll="true" tabindex="-1" aria-labelledby="affanOffcanvsLabel">
+                <li>
+                    <a href="Upload Porduct.html"><i class="fa-solid fa-cart-shopping"></i><span>Upload Product</span></a>
+                </li>
+                <li>
+                    <a href="Buy Courses.html"><i class="fa-solid fa-graduation-cap"></i><span> Buy Course</span></a>
+                </li>
+                <li>
+                    <a href="Buy Courses.html"><i class="fa-solid fa-graduation-cap"></i><span>Purchased Courses</span></a>
+                </li>
+                <li>
+                    <a href="P2P Registration.html"><i class="fa-solid fa-user-plus"></i><span>P2P Registration</span></a>
+                </li>
+                <li>
+                    <a href="VTU History.html"><i class="fa-solid fa-mobile"></i></i><span>VTU Purchase History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Donlines.html"><i class="fa-solid fa-users"></i><span>Downlines</span></a>
+                </li>
 
-    <button class="btn-close btn-close-white text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-
-    <div class="offcanvas-body p-0">
-      <div class="sidenav-wrapper">
-        <!-- Sidenav Profile -->
-        <div class="sidenav-profile bg-gradient">
-          <div class="sidenav-style1"></div>
-
-          <!-- User Thumbnail -->
-          <div class="user-profile">
-            <img src="img/1691709875.jpeg" alt="">
-          </div>
-          <br>
-
-          <!-- User Info -->
-          <div class="user-info">
-            <h6 class="user-name mb-0">@ajahsmedia</h6>
-            <span>Welcome to Vertexx</span>
-          </div>
-        </div>
-
-        <!-- Sidenav Nav -->
-        <ul class="sidenav-nav ps-0">
-          <li>
-            <a href="Dashboard.html"><i class="bi bi-house-door"></i> Dashboard</a>
-          </li>
-          <li>
-            <a href="Vendors Dashbaord.html"><i class="bi bi-gift"></i>Vendors Dashbaord</a>
-          </li>
-                    
-          <li>
-            <a href="#"><i class="bi bi-controller"></i>Hive Game
-              <span class="badge bg-danger rounded-pill ms-2">New</span>
-            </a>
-          </li>
-          <li>
-            <a href="Contest.html"><i class="bi bi-trophy"></i> Contest
-              <!--<span class="badge bg-danger rounded-pill ms-2">Coming Soon</span>-->
-            </a>
-          </li>
-          <li>
-            <a href="Withdrwals history.html"><i class="bi bi-bank"></i> Withdrawals
-            </a>
-          </li>
-          <li>
-            <a href="VTU History.html"><i class="bi bi-phone"></i>VTU Purchase History
-            </a>
-          </li>
-          <li>
-            <a class="nav-url"><i class="bi bi-cart-check"></i> Freelancing<span class="dropdown-icon"><i class="bi bi-chevron-down"></i></span></a>
-            <ul>
-              <li>
-                <a href="Upload Porduct.html">Upload Gig</a>
-              </li>
-              <li>
-                <a href="My Products.html">Gig List</a>
-              </li>
+                <li>
+                    <a href="#" class="night-mode-nav" onclick="toggleNightMode()">
+                        <i class="fa-solid fa-moon fs-3"></i><span>Night Mode</span>
+                        <div class="form-check form-switch ms-4">
+                            <input class="form-check-input form-check-success" id="darkSwitchMobile" type="checkbox">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></a>
+                </li>
             </ul>
-          </li>
-          <li>
-            <a href="Buy Courses.html"><i class="bi bi-mortarboard"></i>Buy Course</a>
-          </li>
-          <li>
-            <a href="Buy Courses.html"><i class="bi bi-mortarboard"></i>Purchased Courses</a>
-          </li>
-          <li>
-            <a href="P2P Registration.html"><i class="bi bi-person-fill-add"></i>P2P Registration</a>
-          </li>
-          
-          <li>
-            <a href="Donlines.html"><i class="bi bi-people"></i>Downlines</a>
-          </li>
-          
-          <li>
-            <div class="night-mode-nav">
-              <i class="bi bi-moon"></i> Night Mode
-              <div class="form-check form-switch">
-                <input class="form-check-input form-check-success" id="darkSwitch" type="checkbox">
-              </div>
+
+            <!-- Social Info -->
+            <div class="social-info-wrap">
+                <a href="#">
+                    <i class="fa-brands fa-facebook fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-telegram fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-tiktok fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube fs-4"></i>
+                </a>
             </div>
-          </li>
-          <li>
-            <a href="#"><i class="bi bi-box-arrow-right"></i> Logout</a>
-          </li>
-        </ul>
 
-        <!-- Social Info -->
-        <div class="social-info-wrap">
-          <a href="#">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-telegram"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-tiktok"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-instagram"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-youtube"></i>
-          </a>
+            <!-- Copyright Info -->
+            <div class="copyright-info">
+                <p>
+                    <span id="copyrightYear">2024</span>
+                    ©<a href="Home.html"> Vertex</a>
+                </p>
+            </div>
         </div>
-
-        <!-- Copyright Info -->
-        <div class="copyright-info">
-          <p>
-            <span id="copyrightYear">2024</span>
-            ©<a href="Home.html"> Vertex</a>
-          </p>
-        </div>
-      </div>
     </div>
-  </div>
-
-        
-        
-        <div class="page-content-wrapper py-3">
-    <div class="container">
-      <!-- User Information-->
-      <div class="card user-info-card mb-3">
-        <div class="card-body d-flex align-items-center">
-          
-            
-           <form action="#" method="post">
-            <input type="hidden" name="_token" value="sniRGEL2sJeTmVpkpbkWaRaIW7rHHYVAOzhWgZpW">
-            <div class="user-info px-2 p-3">
-            <div class="d-flex align-items-center">
-              <h5 class="mb-1 fw-bold">Withdrawal Portal</h5>
-              <span class="badge warning ms-2 rounded-pill fw-bold">Vertexx</span>
-            </div>
-            <p class="mb-0 fs-6">Kindly Sumbit Request</p>
-          </div>
-        </form></div>
-      </div>
       
-      <div class="container">
-  <div class="card card-bg-img primary card-overlay" style="background-image: url(&#39;img/bg-img/3.jpg&#39;)">
-    <div class="card-body p-5 direction-rtl">
-      <div class="card-text">
-        <p class="text-white display-7 mb-4">Palmpay <br> 9034537332 <br> Emmanuel Bassey Ajah</p>
-      </div>
-      <a class="btn warning" href="Update Bank Details.html">Edit details</a>
-    </div>
-  </div>
-</div>
-<br>
 
+  <div class="d-flex">
 
-      <!-- User Meta Data-->
-      <div class="card user-data-card">
-        <div class="card-body p-4">
-          
-            <div class="form-group">
-              <label class="form-label" for="type">Withdrawal Type</label>
-              <select class="form-select form-control-clicked" id="type" name="type" aria-label="Default select" required="">
-                <option value="" selected="">Select Type</option>
-                
-                <option value="affiliate" disabled="">Affiliate Balance ₦212,500.00</option>
-                
-                <option value="invest" disabled="">Game Balance ₦76.00</option>
-                
-                <option value="earnings" disabled="">Activities Balance H21,050.00</option>
-              </select>
+    <!-- # flex Left -->
+    <div class="offcanvas-body p-0 col-12 col-md-1 shadow">
+        <div class="sidenav-wrapper-lg dark-div">
+
+            <!-- Sidenav Nav -->
+            <ul class="sidenav-nav ps-0">
+                <li>
+                    <a href="Dashboard.html" class="active-item"><i class="fa-solid fa-house"></i><span>Dashboard</span></a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa-solid fa-gamepad"></i><span>Vertexx Game</span>
+                        <span class="badge bg-danger rounded-pill ms-2">New</span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="Contest.html"><i class="fa-solid fa-trophy"></i>
+                        <span>Vertexx Game</span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="Withdrwals history.html"><i class="fa-solid fa-bank"></i><span>Withdrawals</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Upload Porduct.html"><i class="fa-solid fa-cart-shopping"></i><span>Upload Product</span></a>
+                </li>
+                <li>
+                    <a href="Buy Courses.html"><i class="fa-solid fa-graduation-cap"></i><span> Buy Course</span></a>
+                </li>
+                <li>
+                    <a href="Buy Courses.html"><i class="fa-solid fa-graduation-cap"></i><span>Purchased Courses</span></a>
+                </li>
+                <li>
+                    <a href="P2P Registration.html"><i class="fa-solid fa-user-plus"></i><span>P2P Registration</span></a>
+                </li>
+                <li>
+                    <a href="VTU History.html"><i class="fa-solid fa-mobile"></i></i><span>VTU Purchase History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Donlines.html"><i class="fa-solid fa-users"></i><span>Downlines</span></a>
+                </li>
+
+                <li>
+                    <a href="#" class="night-mode-nav night-mode-lg" onclick="toggleNightMode()">
+                        <i class="fa-solid fa-moon fs-3"></i><span>Night Mode</span>
+                        <div class="form-check form-switch ms-4">
+                            <input class="form-check-input form-check-success" id="darkSwitchLargeScreen" type="checkbox">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></a>
+                </li>
+            </ul>
+
+            <!-- Social Info -->
+            <div class="social-info-wrap">
+                <a href="#">
+                    <i class="fa-brands fa-facebook fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-telegram fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-tiktok fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram fs-4"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube fs-4"></i>
+                </a>
             </div>
 
-            <div class="form-group mb-3">
-              <label class="form-label" for="amount">Withdrawal Amount</label>
-              <input class="form-control form-control-clicked" id="amount" type="text" value="" name="amount" required="">
-            </div>
-            
-            <div class="form-group mb-3">
-    <label class="form-label" for="amount">Withdrawal Pin</label>
-    <input class="form-control form-control-clicked" id="amount" type="password" value="" name="pin" required="" maxlength="4">
-</div>
 
-            
-            
-            <button class="btn btn-primary w-100" type="submit">Submit Now</button>
-          
+            <!-- Copyright Info -->
+            <div class="copyright-info">
+                <p>
+                    <span id="copyrightYear">2024</span>
+                    ©<a href="Home.html"> Vertex</a>
+                </p>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+    <!-- flex left end -->
 
+    <div class="flex-right col-12 col-md-11">
+        <!-- Header Area -->
+        <div class="col-12 header-area" style="top: 0;">
+            <!-- Header Content -->
+            <div class="header-content header-style-five position-relative d-flex align-items-center justify-content-between">
+                <!-- Logo Wrapper -->
+                <div class="logo-wrapper">
+                    <a href="Home.html">
+                        <img src="img/Vertex-09-copy.png" class="dark-img" alt="">
+                        <img src="img/Vertex-08-copy.png" class="light-img" alt="" style="display: none;">
+                    </a>
+                </div>
 
-<!-- Footer Nav -->
-<div class="footer-nav-area" id="footerNav">
-  <div class="container-fluid px-0">
-    <!-- Footer Content -->
-    <div class="footer-nav container">
-      <ul class="h-100 d-flex align-items-center justify-content-between ps-0">
-        <li class="active">
-          <a href="Dashboard.html">
-            <i class="fa-solid fa-house"></i>              
-            <span>Dashbaord</span>
-          </a>
-        </li>
+                <p class="fw-bold fs-5 mt-4 welcome-lg">Welcome, Daniel</p>
+                <!-- Navbar Toggler -->
+                <div class="navbar--toggler" onclick="openNav()">
+                    <span class="d-block"></span>
+                    <span class="d-block"></span>
+                    <span class="d-block"></span>
+                </div>
+                <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
+            </div>
+        </div>
+        <p class="fw-bold fs-5 mt-2 welcome-mobile me-3">Welcome, Daniel</p>
 
-        <li>
-          <a href="#">
-            <i class="fa-solid fa-clock-rotate-left"></i>              
-            <span>Earnings</span>
-          </a>
-        </li>
+        <div class="overall-div" style="display: flex;">
+            <!-- flex-right inner-left -->
+            <div class="container mt-3">
 
-        <li>
-          <a href="#">
-            <i class="fa-solid fa-phone"></i>              
-            <span>Airtime</span><span class="badge bg-warning rounded-pill ms-2">Soon</span>
-          </a>
-        </li>
+              <div class="card shadow primary hero-div" style="background-image: url(&#39;img/bg-img/3.jpg&#39;)">
+                <div class="card-body p-5 direction-rtl">
+                  <div class="card-text">
+                    <p class="text-white display-7 mb-4">Palmpay <br> 9034537332 <br> Emmanuel Bassey Ajah</p>
+                  </div>
+                  <a class="btn warning " href="Update Bank Details.html">Edit details</a>
+                </div>
+              </div>
 
-        <li>
-          <a href="#">
-            <i class="fa-solid fa-wifi"></i>              
-            <span>Data</span><span class="badge bg-warning rounded-pill ms-2">Soon</span>
-          </a>
-        </li>
+              <div class="card shadow mt-4">
+                <div class="card-body p-4">
+                  
+                  <form action="#" method="post">
+                    <div class="row g-3">
+                      <div class="col-md-12">
+                        <div class="form-floating">
+                          <!-- <label class="form-label">Withdrawal Type</label> -->
+                          <select class="form-select" id="type" name="type" required="">
+                            <option style="margin-top: -10px !important;">Select Withdrawal Type</option>
+                            
+                            <option value="affiliate" disabled="">Affiliate Balance ₦212,500.00</option>
+                            
+                            <option value="invest" disabled="">Game Balance ₦76.00</option>
+                            
+                            <option value="earnings" disabled="">Activities Balance H21,050.00</option>
+                          </select>
+                        </div>  
+                      </div>
+    
+                      <div class="col-md-12">
+                        <div class="form-floating">
+                          <input class="form-control" placeholder="amount" type="text" name="amount" required="">
+                          <label class="form-label">Withdrawal Amount</label>
+                        </div>
+                      </div>
+    
+                      <div class="col-md-12">
+                        <div class="form-floating">
+                          <input class="form-control" placeholder="pin" type="text" name="amount" required="">
+                          <label class="form-label">Withdrawal Pin</label>
+                        </div>
+                      </div>
+    
+                      <button class="btn btn-primary w-100" type="submit">Submit Now</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
 
-        <li>
-          <a href="Update Profile.html">
-            <i class="fa-solid fa-gear"></i>
-            <span>Profile</span>
-          </a>
-        </li>
-      </ul>
+                
+            </div>
+        </div>
     </div>
-  </div>
 </div>
   
+<script src="script.js"></script>
 
 <script>
     "use strict";

@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Vertexx">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <!-- Title -->
   <title> Vertexx - Update Profile</title>
+  <link rel="shortcut icon" type="image/png" href="img/Vertex-09-copy.png">   
    
   <!-- Style CSS -->
   <link rel="stylesheet" href="style.css">
@@ -17,282 +17,311 @@
 
  </head>
 
-<body class="" style="background-color: #99f7ce36;">
+<body class="bg-light">
   <!-- Preloader -->
-  
-
-  <!-- Internet Connection Status -->
-  <div class="internet-connection-status" id="internetStatus" style="display: none; background-color: rgb(0, 184, 148);">Your internet connection is back.</div>
-
-  <!-- Header Area -->
-  <div class="header-area" id="headerArea">
-    <div class="container">
-      <!-- Header Content -->
-      <div class="header-content header-style-five position-relative d-flex align-items-center justify-content-between">
-        <!-- Logo Wrapper -->
-        <div class="logo-wrapper">
-          <a href="Home.html">
-            <img src="img/Vertex-09-copy.png" class="dark-img" alt="">
-            <img src="img/Vertex-08-copy.png" class="light-img" alt="" style="display: none;">
-          </a>
-        </div>
-
-        <!-- Navbar Toggler -->
-        <div class="navbar--toggler" id="affanNavbarToggler" data-bs-toggle="offcanvas" data-bs-target="#affanOffcanvas" aria-controls="affanOffcanvas">
-          <span class="d-block"></span>
-          <span class="d-block"></span>
-          <span class="d-block"></span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- # Sidenav Left -->
-  <div class="offcanvas offcanvas-start" id="affanOffcanvas" data-bs-scroll="true" tabindex="-1" aria-labelledby="affanOffcanvsLabel">
-
-    <button class="btn-close btn-close-white text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-
-    <div class="offcanvas-body p-0">
-      <div class="sidenav-wrapper">
-        <!-- Sidenav Profile -->
-        <div class="sidenav-profile bg-gradient">
-          <div class="sidenav-style1"></div>
-
-          <!-- User Thumbnail -->
-          <div class="user-profile">
-            <img src="img/1691709875.jpeg" alt="">
-          </div>
-          <br>
-
-          <!-- User Info -->
-          <div class="user-info">
-            <h6 class="user-name mb-0">@ajahsmedia</h6>
-            <span>Welcome to Vertexx</span>
-          </div>
-        </div>
+        
+  <div id="mySidenav" class="sidenav">
+        
+    <div class="sidenav-wrapper">
 
         <!-- Sidenav Nav -->
         <ul class="sidenav-nav ps-0">
-          <li>
-            <a href="Dashboard.html"><i class="bi bi-house-door"></i> Dashboard</a>
-          </li>
-          <li>
-            <a href="Vendors Dashbaord.html"><i class="bi bi-gift"></i>Vendors Dashbaord</a>
-          </li>
-                    
-          <li>
-            <a href="#"><i class="bi bi-controller"></i>Hive Game
-              <span class="badge bg-danger rounded-pill ms-2">New</span>
-            </a>
-          </li>
-          <li>
-            <a href="Contest.html"><i class="bi bi-trophy"></i> Contest
-              <!--<span class="badge bg-danger rounded-pill ms-2">Coming Soon</span>-->
-            </a>
-          </li>
-          <li>
-            <a href="Withdrwals history.html"><i class="bi bi-bank"></i> Withdrawals
-            </a>
-          </li>
-          <li>
-            <a href="VTU History.html"><i class="bi bi-phone"></i>VTU Purchase History
-            </a>
-          </li>
-          <li>
-            <a class="nav-url"><i class="bi bi-cart-check"></i> Freelancing<span class="dropdown-icon"><i class="bi bi-chevron-down"></i></span></a>
-            <ul>
-              <li>
-                <a href="Upload Porduct.html">Upload Gig</a>
-              </li>
-              <li>
-                <a href="My Products.html">Gig List</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="Buy Courses.html"><i class="bi bi-mortarboard"></i>Buy Course</a>
-          </li>
-          <li>
-            <a href="Buy Courses.html"><i class="bi bi-mortarboard"></i>Purchased Courses</a>
-          </li>
-          <li>
-            <a href="P2P Registration.html"><i class="bi bi-person-fill-add"></i>P2P Registration</a>
-          </li>
-          
-          <li>
-            <a href="Donlines.html"><i class="bi bi-people"></i>Downlines</a>
-          </li>
-          
-          <li>
-            <div class="night-mode-nav">
-              <i class="bi bi-moon"></i> Night Mode
-              <div class="form-check form-switch">
-                <input class="form-check-input form-check-success" id="darkSwitch" type="checkbox">
-              </div>
-            </div>
-          </li>
-          <li>
-            <a href="#"><i class="bi bi-box-arrow-right"></i> Logout</a>
-          </li>
+            <li>
+                <a href="Dashboard.html" class="active-item"><i class="fa-solid fa-house"></i><span>Dashboard</span></a>
+            </li>
+
+            <li>
+                <a href="#"><i class="fa-solid fa-gamepad"></i><span>Vertexx Game</span>
+                    <span class="badge bg-danger rounded-pill ms-2">New</span>
+                </a>
+            </li>
+            <!-- <li>
+                <a href="Contest.html"><i class="fa-solid fa-trophy"></i>
+                    <span>Vertexx Game</span>
+                </a>
+            </li> -->
+            <li>
+                <a href="Withdrwals history.html"><i class="fa-solid fa-bank"></i><span>Withdrawals</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="Upload Porduct.html"><i class="fa-solid fa-cart-shopping"></i><span>Upload Product</span></a>
+            </li>
+            <li>
+                <a href="Buy Courses.html"><i class="fa-solid fa-graduation-cap"></i><span> Buy Course</span></a>
+            </li>
+            <li>
+                <a href="Buy Courses.html"><i class="fa-solid fa-graduation-cap"></i><span>Purchased Courses</span></a>
+            </li>
+            <li>
+                <a href="P2P Registration.html"><i class="fa-solid fa-user-plus"></i><span>P2P Registration</span></a>
+            </li>
+            <li>
+                <a href="VTU History.html"><i class="fa-solid fa-mobile"></i></i><span>VTU Purchase History</span>
+                </a>
+            </li>
+            <li>
+                <a href="Donlines.html"><i class="fa-solid fa-users"></i><span>Downlines</span></a>
+            </li>
+
+            <li>
+                <a href="#" class="night-mode-nav" onclick="toggleNightMode()">
+                    <i class="fa-solid fa-moon fs-3"></i><span>Night Mode</span>
+                    <div class="form-check form-switch ms-4">
+                        <input class="form-check-input form-check-success" id="darkSwitchMobile" type="checkbox">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></a>
+            </li>
         </ul>
 
         <!-- Social Info -->
         <div class="social-info-wrap">
-          <a href="#">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-telegram"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-tiktok"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-instagram"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-youtube"></i>
-          </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-telegram fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube fs-4"></i>
+            </a>
         </div>
 
         <!-- Copyright Info -->
         <div class="copyright-info">
-          <p>
-            <span id="copyrightYear">2024</span>
-            ©<a href="Home.html"> Vertex</a>
-          </p>
+            <p>
+                <span id="copyrightYear">2024</span>
+                ©<a href="Home.html"> Vertex</a>
+            </p>
         </div>
-      </div>
     </div>
-  </div>
+</div>
+  
 
-        
-        
-        <div class="page-content-wrapper py-3">
-    <div class="container">
-      <!-- User Information-->
-      <div class="card user-info-card mb-3 p-2">
-        <div class="card-body d-flex align-items-center">
-          <div class="user-profile me-3">
-            <img src="./Update Profile_files/1691709875.jpeg" alt="" width="52" height="52">
-            
-           <form action="#" method="post" enctype="multipart/form-data">
-              <input type="hidden" name="_token" value="sniRGEL2sJeTmVpkpbkWaRaIW7rHHYVAOzhWgZpW">              <i class="bi bi-pencil"></i>
-              <input class="form-control" type="file" name="profile_picture" accept="image/*" max="2000000">
-          </form>
+<div class="d-flex">
+
+<!-- # flex Left -->
+<div class="offcanvas-body p-0 col-12 col-md-1 shadow">
+    <div class="sidenav-wrapper-lg dark-div">
+
+        <!-- Sidenav Nav -->
+        <ul class="sidenav-nav ps-0">
+            <li>
+                <a href="Dashboard.html" class="active-item"><i class="fa-solid fa-house"></i><span>Dashboard</span></a>
+            </li>
+
+            <li>
+                <a href="#"><i class="fa-solid fa-gamepad"></i><span>Vertexx Game</span>
+                    <span class="badge bg-danger rounded-pill ms-2">New</span>
+                </a>
+            </li>
+            <!-- <li>
+                <a href="Contest.html"><i class="fa-solid fa-trophy"></i>
+                    <span>Vertexx Game</span>
+                </a>
+            </li> -->
+            <li>
+                <a href="Withdrwals history.html"><i class="fa-solid fa-bank"></i><span>Withdrawals</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="Upload Porduct.html"><i class="fa-solid fa-cart-shopping"></i><span>Upload Product</span></a>
+            </li>
+            <li>
+                <a href="Buy Courses.html"><i class="fa-solid fa-graduation-cap"></i><span> Buy Course</span></a>
+            </li>
+            <li>
+                <a href="Buy Courses.html"><i class="fa-solid fa-graduation-cap"></i><span>Purchased Courses</span></a>
+            </li>
+            <li>
+                <a href="P2P Registration.html"><i class="fa-solid fa-user-plus"></i><span>P2P Registration</span></a>
+            </li>
+            <li>
+                <a href="VTU History.html"><i class="fa-solid fa-mobile"></i></i><span>VTU Purchase History</span>
+                </a>
+            </li>
+            <li>
+                <a href="Donlines.html"><i class="fa-solid fa-users"></i><span>Downlines</span></a>
+            </li>
+
+            <li>
+                <a href="#" class="night-mode-nav night-mode-lg" onclick="toggleNightMode()">
+                    <i class="fa-solid fa-moon fs-3"></i><span>Night Mode</span>
+                    <div class="form-check form-switch ms-4">
+                        <input class="form-check-input form-check-success" id="darkSwitchLargeScreen" type="checkbox">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></a>
+            </li>
+        </ul>
+
+        <!-- Social Info -->
+        <div class="social-info-wrap">
+            <a href="#">
+                <i class="fa-brands fa-facebook fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-telegram fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram fs-4"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube fs-4"></i>
+            </a>
         </div>
-          <div class="user-info">
-            <div class="d-flex align-items-center">
-              <h5 class="mb-1 fw-bold">@ajahsmedia</h5>
-              <span class="badge warning ms-2 rounded-pill">Member</span>
+
+
+        <!-- Copyright Info -->
+        <div class="copyright-info">
+            <p>
+                <span id="copyrightYear">2024</span>
+                ©<a href="Home.html"> Vertex</a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- flex left end -->
+
+    <div class="flex-right col-12 col-md-11">
+        <!-- Header Area -->
+        <div class="col-12 header-area" style="top: 0;">
+          <!-- Header Content -->
+          <div class="header-content header-style-five position-relative d-flex align-items-center justify-content-between">
+              <!-- Logo Wrapper -->
+              <div class="logo-wrapper">
+                  <a href="Home.html">
+                      <img src="img/Vertex-09-copy.png" class="dark-img" alt="">
+                      <img src="img/Vertex-08-copy.png" class="light-img" alt="" style="display: none;">
+                  </a>
+              </div>
+
+              <p class="fw-bold fs-5 mt-4 welcome-lg">Welcome, Daniel</p>
+              <!-- Navbar Toggler -->
+              <div class="navbar--toggler" onclick="openNav()">
+                  <span class="d-block"></span>
+                  <span class="d-block"></span>
+                  <span class="d-block"></span>
+              </div>
+              <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
+          </div>
+      </div>
+      <p class="fw-bold fs-5 mt-2 welcome-mobile me-3">Welcome, Daniel</p>
+
+        <div class="overall-div" style="">
+          <div class="container">
+            <!-- User Information-->
+            <!-- <div class="card user-info-card mb-3 p-2 shadow">
+              <div class="card-body d-flex align-items-center">
+                <div class="user-profile me-3">
+                  <img src="./Update Profile_files/1691709875.jpeg" alt="" width="52" height="52">
+                  
+                 <form action="#" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="_token" value="sniRGEL2sJeTmVpkpbkWaRaIW7rHHYVAOzhWgZpW">              <i class="bi bi-pencil"></i>
+                    <input class="form-control" type="file" name="profile_picture" accept="image/*" max="2000000">
+                </form>
+              </div>
+                <div class="user-info">
+                  <div class="d-flex align-items-center">
+                    <h5 class="mb-1 fw-bold">@ajahsmedia</h5>
+                    <span class="badge warning ms-2 rounded-pill">Member</span>
+                  </div>
+                  <p class="mb-0">ajahemmanuel449@gmail.com</p>
+                </div>
+              </div>
+            </div> -->
+      
+            <!-- User Meta Data-->
+            <div class="card user-data-card shadow mt-4">
+              <div class="card-body p-4">
+                
+                <form action="#" method="post">
+                  <div class="row g-3">
+    
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" name="username" placeholder="Name" autocomplete="off">
+                        <label>First Name</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" name="username" placeholder="Name" autocomplete="off">
+                        <label>Last Name</label>
+                      </div>
+                    </div>
+    
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" name="email" placeholder="Email Address" autocomplete="off">
+                        <label>Email</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" name="location" placeholder="Location" autocomplete="off">
+                        <label>Country</label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" name="username" placeholder="Name" autocomplete="off">
+                        <label>Old Password</label>
+                      </div>
+                    </div>
+    
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" name="email" placeholder="Email Address" autocomplete="off">
+                        <label>New Password</label>
+                      </div>
+                    </div>
+    
+                    <div class="col-md-12">
+                      <div class="form-floating date" id="date3" data-target-input="nearest">
+                        <input type="text" class="form-control datatimepicker-input" name="order" placeholder="date and time" data-target="#date3" data-toggle="datetimepicker" autocomplete="off">
+                        <label>Confirm Password</label>
+                      </div>
+                    </div>
+    
+                    <button class="btn btn-primary w-100" type="submit">Update Now</button>
+
+                  </div>
+                </form>
+
+              </div>
             </div>
-            <p class="mb-0">ajahemmanuel449@gmail.com</p>
           </div>
         </div>
       </div>
-
-      <!-- User Meta Data-->
-      <div class="card user-data-card">
-        <div class="card-body p-4">
-          
-            <div class="form-group mb-3">
-              <label class="form-label" for="firstname">Firstname</label>
-              <input class="form-control form-control-clicked" id="firstname" type="text" value="EMMANUEL" name="firstname">
-            </div>
-
-            <div class="form-group mb-3">
-              <label class="form-label" for="lastname">Lastname</label>
-              <input class="form-control form-control-clicked" id="lastname" type="text" value="AJAH" name="lastname">
-            </div>
-
-            <div class="form-group mb-3">
-              <label class="form-label" for="email">Email Address</label>
-              <input class="form-control form-control-clicked" id="email" type="email" value="ajahemmanuel449@gmail.com" name="email" readonly="">
-            </div>
-            
-            <div class="form-group mb-3">
-              <label class="form-label" for="country">Country</label>
-              <input class="form-control form-control-clicked" id="country" type="text" value="" name="country">
-            </div>
-
-            <div class="form-group mb-3">
-              <label class="form-label" for="mobile">Phone Number</label>
-              <input class="form-control" id="mobile" type="tel" value="09034537332" name="mobile">
-            </div>
-            
-            
-            <div class="form-group mb-3">
-              <label class="form-label" for="current_password">Old Passwoord</label>
-              <input class="form-control" id="current_password" type="password" value="" name="current_password">
-            </div>
-            
-            <div class="form-group mb-3">
-              <label class="form-label" for="new_password">New Password</label>
-              <input class="form-control" id="password" type="password" value="" name="new_password">
-            </div>
-
-            <div class="form-group mb-3">
-              <label class="form-label" for="password_confirmation">Confirm New Password</label>
-              <input class="form-control" id="password_confirmation" type="password" value="" name="password_confirmation">
-            </div>
-
-
-            <button class="btn btn-primary w-100" type="submit">Update Now</button>
-          
-        </div>
-      </div>
     </div>
-  </div>
-
-
- <!-- Footer Nav -->
- <div class="footer-nav-area" id="footerNav">
-  <div class="container-fluid px-0">
-    <!-- Footer Content -->
-    <div class="footer-nav container">
-      <ul class="h-100 d-flex align-items-center justify-content-between ps-0">
-        <li class="active">
-          <a href="Dashboard.html">
-            <i class="fa-solid fa-house"></i>              
-            <span>Dashbaord</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <i class="fa-solid fa-clock-rotate-left"></i>              
-            <span>Earnings</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <i class="fa-solid fa-phone"></i>              
-            <span>Airtime</span><span class="badge bg-warning rounded-pill ms-2">Soon</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <i class="fa-solid fa-wifi"></i>              
-            <span>Data</span><span class="badge bg-warning rounded-pill ms-2">Soon</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="Update Profile.html">
-            <i class="fa-solid fa-gear"></i>
-            <span>Profile</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
 </div>
   
+<script src="script.js"></script>
 
 <script>
     "use strict";
