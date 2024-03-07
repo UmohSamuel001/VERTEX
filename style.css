@@ -1104,7 +1104,7 @@ caption,
 body,
 html {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* background-color: #d3e3fd; */
   /* color: #8480ae; */
   scrollbar-width: thin;
